@@ -1,13 +1,18 @@
 <template>
-  <header>
-    <img src="../assets/img/dc-logo.png" alt="logo DC"> 
-    <nav>
-        <ul class="nav justify-content-center my-3">
-            <li class="nav-item" v-for="(link, index) in menu" :key="index">
-                <a class="nav-link" :href="link.url" :class="{ 'active': link.current }"> {{ link.text }}</a>
-            </li>
-        </ul>
-    </nav>
+  <header class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="../assets/img/dc-logo.png" alt="logo DC" class="logo">
+      </div>
+      
+      <ul class="nav justify-content-center my-3 col-sm-9 items">
+        <li class="nav-item" v-for="(link, index) in menu" :key="index">
+        <a class="nav-link" :href="link.url" :class="{ 'active': link.current }"> {{ link.text }}</a>
+        </li>
+      </ul>
+      
+    </div>
+     
   </header>
 </template>
 
@@ -76,5 +81,24 @@
 </script>
 
 <style lang="css" scoped>
+.logo{
+  height: 100px;
+  padding:10px;
+}
+
+header li{
+  display: inline-block;
+  text-transform: uppercase ;
+  padding: 10px;
+}
+
+header{
+  font-family: 'Open Sans', sans-serif;
+}
+
+li a{
+  color: gray;
+}
+
 
 </style>
