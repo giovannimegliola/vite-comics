@@ -94,8 +94,19 @@
   background-image: url('../assets/img/footer-bg.jpg');
 }
 
+footer{
+  font-family: 'Open Sans', sans-serif;
+}
 .footer_bottom{
   background-color: #303030;
 }
+.footer_top a{
+  color: gray;
+}
+
+span{
+  color: white;
+}
+
 
 </style>
