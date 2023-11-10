@@ -71,4 +71,7 @@ const comics = [
     "series": "Catwoman",
     "type": "graphic novel",
   },
-  ]
+  ];
+
+  export { comics };
+

@@ -54,7 +54,7 @@
 
                 </div>
 
-                <div class="col-5 margin_left">
+                <div class="col-5 logodc">
                     <img src="../assets/img/dc-logo-bg.png" alt="" class="logo DC">
                 </div>
             </div>
@@ -107,6 +107,7 @@ footer{
 span{
   color: white;
 }
+
 
 
 </style>
