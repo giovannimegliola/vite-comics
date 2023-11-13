@@ -11,8 +11,8 @@
 export default {
   name: 'CardComponent',
   props: [
-      'image',
-      'title'
+    'image',
+    'title'
   ]
 }
 </script>
